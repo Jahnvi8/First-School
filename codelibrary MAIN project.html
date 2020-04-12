@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    body{
+      margin: 0px;
+      padding: 0px;
+      color: white;
+      background-color:black;
+      background-image: url(tech1.jpg) ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .mid{
+      width: 700px;
+      margin: 12px 500px;
+      top: 20px;
+      color:rgb(230, 153, 0) ;
+      font-size: 20px;
+      right: auto;
+      font-style: italic;
+    }
+    .list{
+      margin: 0px;
+      focus: left;
+      color: grey;
+      font-size: 15px;
+      font-style:normal;
+      font-family: sans-serif;
+    }
+    .container{
+      margin:30px 20px;
+      width: 90%;
+      font-style: italic;
+      font-weight: bolder;
+      font-family: serif;
+      border: 1.5px solid grey;
+      border-radius: 20px;
+      padding: 10px;
+    }
+    .b2{
+        border-radius: 10px;
+        border: solid grey;
+        cursor: pointer;
+        width: 20px 80px;
+        font-size: 15px;
+        margin: 0px 1000px;
+        align: right;
+
+    }
+    .b2:hover{
+      background-color: lightblue;
+    }
+    .container2{
+      margin:30px 20px;
+      width: 90%;
+      font-style: italic;
+      font-weight: bolder;
+      font-family: serif;
+      border: 1.5px solid grey;
+      border-radius: 20px;
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <div class="mid">
+      <h1>CODE library</h1>
+    </div>
+    <div class="left">
+      <div class="container">
+        <ul class="list" type= "circle">
+          <li><em> ARRAY in C:</em><br> An array is a container object that holds a fixed number of values of a single type. To create an array in C, we can do int arr[n];. Here, arr,
+             is a variable array which holds up to ten integers. The above array is a static array that has memory allocated at compile time.
+             A dynamic array can be created in C, using the malloc function and the memory is allocated on the heap at runtime.
+            To create an integer array, arr of size n, int *arr = (int*)malloc(n * sizeof(int)), where arr points to the base address of the array.
+            In this challenge, you have to create an array of size n dynamically, input the elements of the array, sum them and print the sum of the elements in a new line.</li>
+ <button type="button" onclick="window.location.href='seemore3project.html';" class="b2" name="button">Try</button>
+      </div>
+      <div class="container2">
+        <ul class="list" type= "circle">
+          <li><em> VARIADIC functions in C:</em><br>Variadic functions are functions which take a variable number of arguments. In C programming,
+             a variadic function will contribute to the flexibility of the program that you are developing.
+          The declaration of a variadic function starts with the declaration of at least one named variable, and uses an ellipsis as the last parameter,
+           e.g.int printf(const char* format, ...);
+          In this problem, you will implement three variadic functions named sum(),min()  and max()  to calculate sums, minima, maxima of a variable number of arguments.
+         The first argument passed to the variadic function is the count of the number of arguments, which is followed by the arguments themselves.</li><br>
+
+ <button type="button" onclick="window.location.href='seemore3project.html';" class="b2" name="button">Try</button>
+      </div>
+      <div class="container2">
+        <ul class="list" type= "circle">
+          <li><em>ATTRIBUTE PARSER:</em><br>We have defined our own markup language HTML. In HTML, each element consists of a starting and ending tag,
+            and there are attributes associated with each tag.
+             Only starting tags can have attributes. We can call an attribute by referencing the tag, followed by a tilde, '~' and the name of the attribute.
+              The tags may also be nested.
+             The opening tags follow the format:For example:
+             The aTtributes are referenced as:
+             tag1~value
+             tag1.tag2~name
+             You are given the source code in HTML format consisting of  lines. You have to answer  queries. Each query asks you to print the value of the attribute specified.
+              Print "Not Found!" if there isn't any such attribute.</li><br>
+<button type="button" onclick="window.location.href='seemore3project.html';" class="b2" name="button">Try</button>
+      </div>
+      <div class="container2">
+        <ul class="list" type= "circle">
+          <li><em>JAVA STACK: </em><br>A string containing only parentheses is balanced if the following is true: 1. if it is an empty string 2. if A and B are correct, AB is correct,
+            3. if A is correct, (A) and {A} and [A] are also correct.<br>
+              Examples of some correctly balanced strings are: "{}()", "[{()}]", "({()})"<br>
+              Examples of some unbalanced strings are: "{}(", "({)}", "[[", "}{" etc.<br>
+                Given a string, determine if it is balanced or not.</li>
+  <button type="button" onclick="window.location.href='seemore3project.html';" class="b2" name="button">Try</button>
+</div>
+  <div class="container2">
+    <ul class="list" type= "circle">
+      <li><em>THE MINION GAME:<em><br>Kevin and Stuart want to play the 'The Minion Game'.<br>
+      Game Rules:<br>
+        Both players are given the same string, S. Both players have to make substrings using the letters of the string .Stuart has to make words starting with consonants.
+        Kevin has to make words starting with vowels.The game ends when both players have made all possible substrings.<br>
+       Scoring:<br>
+       A player gets +1 point for each occurrence of the substring in the string .</li>
+<button type="button" onclick="window.location.href='seemore3project.html';" class="b2" name="button">Try</button>
+</div>
+      </ul>
+    </div>
+
+  </body>
+</html>
